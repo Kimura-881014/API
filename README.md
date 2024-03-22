@@ -4,7 +4,7 @@
 
 ![Image](rps/return_json.png)
 
-- payload: There are three types ["Rock", "Paper", "Sciserors"]
+- payload: There are three types ["Rock", "Paper", "Scissors"]
 - signeture: The signature is generated using SHA256 hash function, combining time, payload, and key inputs, ensuring data integrity and authenticity.  
 `hashlib.sha256((time + payload + key).encode()).hexdigest()`
 - time: Number of seconds elapsed since UNIX epoch.
